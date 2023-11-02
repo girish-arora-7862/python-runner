@@ -1,0 +1,17 @@
+.console_area_output {
+  white-space: pre-wrap;
+  color: #444;
+}
+
+.console_area_error {
+  white-space: pre-wrap;
+  color: red;
+}
+
+.console_area_wrapper {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 18px;
+  font-size: 16px;
+  line-height: 1.2;
+}

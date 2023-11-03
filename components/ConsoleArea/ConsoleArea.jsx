@@ -45,9 +45,9 @@ const ConsoleArea = (props) => {
 
   return (
     <div>
-      {isLoading && <div>Loading...</div>}
+      {isLoading && <div data-cy="console_area_loader">Loading...</div>}
       {!isLoading && (
-        <>
+        <div data-cy="console_area_output">
           {!error ? (
             <div
               className={`${styles.console_area_output} ${styles.console_area_wrapper}`}
@@ -61,7 +61,7 @@ const ConsoleArea = (props) => {
               {error}
             </div>
           )}
-        </>
+        </div>
       )}
     </div>
   );

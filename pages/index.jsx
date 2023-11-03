@@ -41,6 +41,7 @@ export default function Home() {
             onClick={handleRun}
             className={styles.button}
             disabled={isLoading}
+            data-cy="home_run_btn"
           >
             Run
           </button>
@@ -48,6 +49,7 @@ export default function Home() {
             onClick={handleClear}
             className={styles.button}
             disabled={isLoading}
+            data-cy="home_clear_btn"
           >
             Clear
           </button>

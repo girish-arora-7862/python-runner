@@ -13,7 +13,7 @@ const CodeEditor = (props) => {
   }, []);
 
   return (
-    <div className={styles.code_editor_wrapper}>
+    <div className={styles.code_editor_wrapper} data-cy="code_editor_wrapper">
       <CodeMirror
         value={code}
         height="500px"
